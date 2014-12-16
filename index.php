@@ -59,10 +59,10 @@ get_header(); ?>
 <br><br>
 
 
-  <div class="container">
+  <div class="container" id="hallerlakecontainer">
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
+      <div class="jumbotron" id="hallerlakejumbotron">
 
 
 	<div id="content" class="site-content">
