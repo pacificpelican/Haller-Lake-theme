@@ -13,8 +13,8 @@
 	<footer id="colophon" class="site-footer" role="siteinfo">
 		<div class="site-info">
 		<center>
-			Powered by <a href="http://wordpress.org">WordPress</a> and <a href="http://getbootstrap.com">Bootstrap</a> and <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>"><? echo wp_get_theme(); ?></a> by <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'AuthorURI' ); ?>"><?php $my_theme = wp_get_theme(); echo $my_theme->get( 'Author' ); ?></a>
-			</center>	
+			Powered by <a href="http://wordpress.org">WordPress</a> and <a href="http://getbootstrap.com">Bootstrap</a> and <a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>"><?php echo wp_get_theme(); ?></a> version <?php $my_theme = wp_get_theme(); echo $my_theme->get( 'Version' ); ?>
+			</center>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page --><?php wp_footer(); ?></body></html>
