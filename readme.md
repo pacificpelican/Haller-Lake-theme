@@ -5,3 +5,5 @@ This theme is brought to you by:
 http://lovebirdsconsulting.com
 
 For more information about this theme see [the style.css](style.css) file.
+
+A changelog is available [here](lovebirds/changelog.md).
