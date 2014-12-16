@@ -16,7 +16,7 @@ get_header(); ?>
 
 
 <header id="masthead" class="site-header" role="banner">
-	
+
 
  <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -32,18 +32,18 @@ get_header(); ?>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-    
-    
+
+
      <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Links <span class="caret"></span></a>
               <ul class="dropdown-menu" role="menu">
-    
-        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?> 
+
+        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 </ul>
 </li>
-          
+
             </ul>
-          
+
         </div><!--/.nav-collapse -->
       </div>
     </nav>
@@ -55,19 +55,19 @@ get_header(); ?>
 
 
 	</header><!-- #masthead -->
-	
-	
+
+<br><br>
 
 
   <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron">
-      
+
 
 	<div id="content" class="site-content">
 
- 
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -99,8 +99,8 @@ get_header(); ?>
 	</div><!-- #primary -->
 
 <?php comments_template( $file, $separate_comments ); ?>
-        
-     
+
+
  </div>
 
     </div> <!-- /container -->
@@ -113,7 +113,7 @@ get_header(); ?>
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="<?php bloginfo('template_directory'); ?>/jq/js/jquery.min.js"></script>
-        
+
     <script src="<?php bloginfo('template_directory'); ?>/bs/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="bs/js/ie10-viewport-bug-workaround.js"></script>
