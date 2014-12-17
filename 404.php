@@ -15,7 +15,7 @@ get_header(); ?>
 					<h1 class="page-title"><?php _e( 'That page can&rsquo;t be found.', '_s' ); ?></h1>
 				</header><!-- .page-header -->
 
-				<div class="page-content">
+				<div class="page-content" id="hallerlakenotfound">
 					<p><?php _e( '404 NOT FOUND', '_s' ); ?></p>
 
 

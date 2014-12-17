@@ -22,3 +22,8 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.2.0 Dec. 16, 2014
 -added hallerlake-specific ids to post content sections
 -changed the minimum height as set in navbar-fixed-top.css to 1000 from 2000
+
+0.2.1 Dec. 16, 2014
+-added a few more hallerlake__ ids
+-spacing tweak on readme.md
+-IE9 workaround via Bootstrap
