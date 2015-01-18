@@ -56,10 +56,10 @@ get_header(); ?>
 
 	</header><!-- #masthead -->
 
-<br><br>
+<br>
 
-
-  <div class="container" id="hallerlakecontainer">
+<div class="row">
+  <div class="container col-xs-12 col-sm-12 col-md-8" id="hallerlakecontainer">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" id="hallerlakejumbotron">
@@ -104,7 +104,7 @@ get_header(); ?>
  </div>
 
     </div> <!-- /container -->
-
+</div> <!-- /row -->
 
 
 <?php get_sidebar(); ?>

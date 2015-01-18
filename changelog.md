@@ -39,3 +39,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.3.2 Jan. 18, 2014
 -Haller Lake branding replacing _s branding in many of the headers to files
+
+0.4.0 Jan. 18, 2014
+-sidebar is now responsive
