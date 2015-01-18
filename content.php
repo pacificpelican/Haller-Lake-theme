@@ -1,6 +1,6 @@
 <?php
 /**
- * @package _s
+ * @package haller_lake_s
  */
 ?>
 

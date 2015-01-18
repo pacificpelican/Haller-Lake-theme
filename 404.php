@@ -2,7 +2,7 @@
 /**
  * The template for displaying 404 pages (not found).
  *
- * @package _s
+ * @package haller_lake_s
  */
 
 get_header(); ?>
