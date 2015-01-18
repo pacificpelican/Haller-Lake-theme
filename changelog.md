@@ -45,3 +45,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.4.1 Jan. 18, 2014
 -float spacing CSS fixes
+
+0.4.2 Jan. 18, 2014
+-more float spacing CSS fixes
+-footer button-ization
