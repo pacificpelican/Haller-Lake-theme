@@ -27,3 +27,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 -added a few more hallerlake__ ids
 -spacing tweak on readme.md
 -IE9 workaround via Bootstrap
+
+0.2.4 Jan. 17, 2014
+-new drop-down comments
+
