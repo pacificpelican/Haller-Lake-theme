@@ -1,4 +1,4 @@
-changelog for Haller Lake theme
+changelog for Haller Lake theme from Love Birds Consulting and Dan McKeown
 http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.1.1 Dec. 16, 2014
@@ -33,3 +33,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.3.0 Jan. 17, 2014
 -buttons for meta-data
+
+0.3.1 Jan. 18, 2014
+-h1 fixes
