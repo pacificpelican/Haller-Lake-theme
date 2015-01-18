@@ -88,7 +88,7 @@ function _s_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
-	echo '<span class="posted-on">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span>';
+	echo '<button type="button" class="btn btn-default" id="postedbutton"><span class="posted-on" id="posted">' . $posted_on . '</span><span class="byline"> ' . $byline . '</span></button>';
 
 }
 endif;
@@ -115,7 +115,7 @@ function _s_entry_footer() {
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 		echo '<span class="comments-link">';
-		comments_popup_link( __( 'Leave a comment', '_s' ), __( '1 Comment', '_s' ), __( '% Comments', '_s' ) );
+		comments_popup_link( __( 'Perma-link', '_s' ), __( '1 Comment', '_s' ), __( '% Comments', '_s' ) );
 		echo '</span>';
 	}
 

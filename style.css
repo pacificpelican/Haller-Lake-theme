@@ -4,7 +4,7 @@ Theme URI: http://pacificpelican.us/hallerlaketheme/
 Author: Daniel J. McKeown
 Author URI: http://djmcloud.com/
 Description: The 2014 WP theme from LoveBirdsConsulting.com
-Version: 0.2.4
+Version: 0.3.0
 License: GNU General Public License version 2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: birdclaw_s
@@ -413,7 +413,7 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: darkblue;
 }
 
 a:hover,
@@ -787,3 +787,5 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+

@@ -31,3 +31,5 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.2.4 Jan. 17, 2014
 -new drop-down comments
 
+0.3.0 Jan. 17, 2014
+-buttons for meta-data
