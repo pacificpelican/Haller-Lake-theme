@@ -65,3 +65,8 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.5.1 Jan. 18, 2015
 -footer button updates
 -nav title is now clickable link to home page
+
+0.5.2 Jan. 18, 2015
+-lowered minimum height of body on navbar-fixed-top.css
+-separated the 'posted on' and 'by' into different buttons
+-simplified file layout in theme

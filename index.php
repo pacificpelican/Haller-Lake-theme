@@ -112,8 +112,8 @@ get_header(); ?>
   <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php bloginfo('template_directory'); ?>/jq/js/jquery.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/jquery.min.js"></script>
 
-    <script src="<?php bloginfo('template_directory'); ?>/bs/js/bootstrap.min.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php bloginfo('template_directory'); ?>/bs/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/ie10-viewport-bug-workaround.js"></script>
