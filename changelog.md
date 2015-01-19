@@ -28,28 +28,31 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 -spacing tweak on readme.md
 -IE9 workaround via Bootstrap
 
-0.2.4 Jan. 17, 2014
+0.2.4 Jan. 17, 2015
 -new drop-down comments
 
-0.3.0 Jan. 17, 2014
+0.3.0 Jan. 17, 2015
 -buttons for meta-data
 
-0.3.1 Jan. 18, 2014
+0.3.1 Jan. 18, 2015
 -h1 fixes
 
-0.3.2 Jan. 18, 2014
+0.3.2 Jan. 18, 2015
 -Haller Lake branding replacing _s branding in many of the headers to files
 
-0.4.0 Jan. 18, 2014
+0.4.0 Jan. 18, 2015
 -sidebar is now responsive
 
-0.4.1 Jan. 18, 2014
+0.4.1 Jan. 18, 2015
 -float spacing CSS fixes
 
-0.4.2 Jan. 18, 2014
+0.4.2 Jan. 18, 2015
 -more float spacing CSS fixes
 -footer button-ization
 
-0.4.3 Jan. 18, 2014
+0.4.3 Jan. 18, 2015
 -more styling fixes
+
+0.4.4 Jan. 18, 2015
+-changed class on content div to col-xs-11 from col-xs-12 to fit on phones
 
