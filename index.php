@@ -48,17 +48,17 @@ get_header(); ?>
       </div>
     </nav>
 <br>
-
-<div id="page" class="hfeed site">
+  </header><!-- #masthead -->
+<div id="page" class="hfeed site container-fluid">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 
 
 
-	</header><!-- #masthead -->
+
 
 <br>
 
-<div class="row">
+<div class="row" id="bigrow">
   <div class="container col-xs-12 col-sm-12 col-md-8" id="hallerlakecontainer">
 
       <!-- Main component for a primary marketing message or call to action -->

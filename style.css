@@ -4,7 +4,7 @@ Theme URI: http://pacificpelican.us/hallerlaketheme/
 Author: Daniel J. McKeown
 Author URI: http://djmcloud.com/
 Description: The 2014 WP theme from LoveBirdsConsulting.com
-Version: 0.4.2
+Version: 0.4.3
 License: GNU General Public License version 2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: haller_lake_s
@@ -810,7 +810,7 @@ object {
 }
 
 @media screen and (max-width: 768px) {
-  .jumbotron {
+   .jumbotron {
     padding: 48px 0;
   }
   .container .jumbotron,
@@ -826,9 +826,10 @@ object {
 
 div #hallerlakecontainer {
     padding-top: 7px;
-    padding-right: 20px;
+    padding-right: 8px;
     padding-bottom: 5px;
-    padding-left: 20px;
+    padding-left: 8px;
+    overflow:hidden;
 }
 
 div #secondary {
@@ -836,4 +837,11 @@ div #secondary {
     padding-right: 5px;
     padding-bottom: 5px;
     padding-left: 25px;
+    overflow:hidden;
 }
+
+div #page {
+    max-width: 100%;
+    overflow:hidden;
+}
+

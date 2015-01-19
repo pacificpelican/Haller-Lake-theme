@@ -12,8 +12,8 @@
 
 	<footer id="colophon" class="site-footer" role="siteinfo">
 		<div class="site-info" id="hallerlakefooter"><center>
-		<button class="btn btn-primary" type="button">
-			Powered by <span class="badge"><a href="http://wordpress.org">WordPress</a></span> and <span class="badge"><a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>"><?php echo wp_get_theme(); ?></a> version <?php $my_theme = wp_get_theme(); echo $my_theme->get( 'Version' ); ?></span></button>
+			Powered by <button class="btn btn-primary" type="button"><span class="badge"><a href="http://wordpress.org">WordPress</a></span></button> and 
+			<button class="btn btn-success" type="button"><span class="badge"><a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>"><?php echo wp_get_theme(); ?></a> version <?php $my_theme = wp_get_theme(); echo $my_theme->get( 'Version' ); ?></span></button>
 			</center>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
