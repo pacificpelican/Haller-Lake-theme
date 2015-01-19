@@ -56,5 +56,8 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.4.4 Jan. 18, 2015
 -changed class on content div to col-xs-11 from col-xs-12 to fit on phones
 
-0.4.3 Jan. 18, 2015
+0.4.5 Jan. 18, 2015
 -more styling fixes
+
+0.5.0 Jan. 18, 2015
+-overflow fix for main content container (affects pop-down comments)
