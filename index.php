@@ -59,7 +59,7 @@ get_header(); ?>
 <br>
 
 <div class="row" id="bigrow">
-  <div class="container col-xs-11 col-sm-12 col-md-8" id="hallerlakecontainer">
+  <div class="container col-xs-12 col-sm-12 col-md-8" id="hallerlakecontainer">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" id="hallerlakejumbotron">
