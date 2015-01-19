@@ -61,3 +61,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.5.0 Jan. 18, 2015
 -overflow fix for main content container (affects pop-down comments)
+
+0.5.1 Jan. 18, 2015
+-footer button updates
+-nav title is now clickable link to home page
