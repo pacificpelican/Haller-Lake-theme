@@ -88,7 +88,12 @@ function _s_posted_on() {
 		'<span class="author vcard"><a class="url fn n" href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '">' . esc_html( get_the_author() ) . '</a></span>'
 	);
 
+if ( is_singular() ) {
 	echo '<button type="button" class="btn btn-default" id="postedbutton"><span class="posted-on" id="posted">' . $posted_on . '</span></button><button type="button" class="btn btn-default" id="postedbutton2"><span class="byline"> ' . $byline . '</span></button>';
+}
+else {
+	echo '<button type="button" class="btn btn-default" id="postedbutton"><span class="posted-on" id="posted">' . $posted_on . '</span>';
+}
 
 }
 endif;

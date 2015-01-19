@@ -70,3 +70,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 -lowered minimum height of body on navbar-fixed-top.css
 -separated the 'posted on' and 'by' into different buttons
 -simplified file layout in theme
+
+0.5.4 Jan. 18, 2015
+-buttons fix: tests if post is singular and only then has 'by' button
+
