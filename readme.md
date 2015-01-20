@@ -9,4 +9,4 @@ http://lovebirdsconsulting.com
 
 For more information about this theme see [the style.css](style.css) file.
 
-A changelog is available [here](lovebirds/changelog.md).
+A changelog is available [here](changelog.md).

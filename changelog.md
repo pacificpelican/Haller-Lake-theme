@@ -81,3 +81,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.5.6 Jan. 20, 2015
 -new updated screenshot
 -changed to esc_url( get_template_directory_uri() to get template location
+
+0.5.7 Jan. 20, 2015
+-readme fix for changelog location
