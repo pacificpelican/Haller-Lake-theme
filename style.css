@@ -4,13 +4,14 @@ Theme URI: http://pacificpelican.us/hallerlaketheme/
 Author: Daniel J. McKeown
 Author URI: http://djmcloud.com/
 Description: The 2014 WP theme from LoveBirdsConsulting.com
-Version: 0.5.4
+Version: 0.5.5
 License: GNU General Public License version 2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: haller_lake_s
-Tags: Bootstrap, _s, open source, nav header, responsive
+Tags: pacificpelican.us, open source, nav header, responsive
 
-Haller Lake theme is based partly on Underscores (_s theme) v1 http://underscores.me/ by Automattic, Inc. and partly on Bootstrap v3 http://getbootstrap.com by Twitter, Inc.
+Haller Lake theme is based partly on Underscores (_s theme) v1 http://underscores.me/ (C) 2014 by Automattic, Inc. 
+	and partly on Bootstrap v3 http://getbootstrap.com (C) 2014 by Twitter, Inc.
 
 _s theme, like WordPress, is licensed under the GPLv2 or later: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +47,7 @@ and Blueprint http://www.blueprintcss.org/]
 12.0 Media
 	12.1 Captions
 	12.2 Galleries
+13.0 Optimizations from Haller Lake
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------

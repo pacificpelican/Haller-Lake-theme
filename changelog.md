@@ -74,3 +74,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.5.4 Jan. 18, 2015
 -buttons fix: tests if post is singular and only then has 'by' button
 
+0.5.5 Jan. 18, 2015
+-code cleanup (body and html tags closed)
+-404 page improved

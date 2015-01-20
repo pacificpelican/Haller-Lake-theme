@@ -117,3 +117,6 @@ get_header(); ?>
     <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php bloginfo('template_directory'); ?>/js/ie10-viewport-bug-workaround.js"></script>
+
+</body>
+</html>

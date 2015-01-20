@@ -20,8 +20,6 @@
     <link rel="icon" href="../../../favicon.ico">
 
     <!-- Bootstrap core CSS -->
-  
-    
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css" media="all" />
 
     <!-- Custom styles for this template -->
