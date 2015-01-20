@@ -20,12 +20,12 @@
     <link rel="icon" href="../../../favicon.ico">
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri(); ?>/css/bootstrap.min.css" type="text/css" media="all" />
 
     <!-- Custom styles for this template -->
 
     
-       <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/navbar-fixed-top.css" type="text/css" media="all" />
+       <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri(); ?>/css/navbar-fixed-top.css" type="text/css" media="all" />
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
