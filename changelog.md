@@ -87,3 +87,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.5.8 Jan. 20, 2015
 -fixed blocker typo bug [missing parantheses in PHP function]
+
+0.5.9 Jan. 21, 2015
+-fixed broken links to jquery, bootstrap js
