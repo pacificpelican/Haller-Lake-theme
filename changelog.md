@@ -90,3 +90,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.5.9 Jan. 21, 2015
 -fixed broken links to jquery, bootstrap js
+
+0.6.0 Jan. 21, 2015
+-markup improvements: progress on div structure

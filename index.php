@@ -14,14 +14,14 @@ get_header(); ?>
 
 <body <?php body_class(); ?>>
 
+<div id="megacontainer">
 
 <header id="masthead" class="site-header" role="banner">
 
-
  <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
+      <div class="container" id="hallernav">
+        <div class="navbar-header" id="hallernav2">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -52,10 +52,6 @@ get_header(); ?>
 <div id="page" class="hfeed site container-fluid">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 
-
-
-
-
 <br>
 
 <div class="row" id="bigrow">
@@ -64,10 +60,7 @@ get_header(); ?>
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" id="hallerlakejumbotron">
 
-
 	<div id="content" class="site-content">
-
-
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -100,7 +93,6 @@ get_header(); ?>
 
 <?php comments_template( $file, $separate_comments ); ?>
 
-
  </div>
 
     </div> <!-- /container -->
@@ -118,5 +110,6 @@ get_header(); ?>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/ie10-viewport-bug-workaround.js"></script>
 
+</div><!-- #megacontainer -->
 </body>
 </html>
