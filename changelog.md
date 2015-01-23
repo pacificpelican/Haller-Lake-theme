@@ -96,3 +96,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.6.1 Jan. 23, 2015
 -added next-to-last closing div to index.php
+
+0.6.2 Jan. 23, 2015
+-comments simplified: no more button drop-down

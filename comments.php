@@ -20,14 +20,6 @@ if ( post_password_required() ) {
 
 <div id="comments" class="comments-area">
 
-<div class="dropdown">
-  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-    Comments
-    <span class="caret"></span>
-  </button>
-
-<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
@@ -71,7 +63,5 @@ if ( post_password_required() ) {
 	<?php endif; ?>
 
 	<?php comment_form(); ?>
-</li>
-  </ul>
-</div>
+
 </div><!-- #comments -->
