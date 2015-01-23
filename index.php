@@ -98,7 +98,6 @@ get_header(); ?>
     </div> <!-- /container -->
 </div> <!-- /row -->
 
-
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
   <!-- Bootstrap core JavaScript
@@ -110,6 +109,7 @@ get_header(); ?>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/ie10-viewport-bug-workaround.js"></script>
 
+</div><!-- .____ -->
 </div><!-- #megacontainer -->
 </body>
 </html>

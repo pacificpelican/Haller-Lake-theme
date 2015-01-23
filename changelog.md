@@ -93,3 +93,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.6.0 Jan. 21, 2015
 -markup improvements: progress on div structure
+
+0.6.1 Jan. 23, 2015
+-added next-to-last closing div to index.php
