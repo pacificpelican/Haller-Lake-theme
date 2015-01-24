@@ -106,3 +106,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 	
 0.7.1 Jan. 24, 2015
 -removed IE8 and IE9 attempted fixes from header.php
+	
+0.7.2 Jan. 24, 2015
+-moved Haller Lake CSS stuff to its own file so it could load last

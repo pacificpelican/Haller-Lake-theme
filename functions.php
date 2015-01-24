@@ -140,15 +140,20 @@ $themeloc = esc_url( get_template_directory_uri() );
 
 	$srcmaterialextrastyle = "$themeloc/css/navbar-fixed-top.css";
 
+	$srchallerextrastyle = "$themeloc/css/hallerlake.css";
 
 wp_register_style( "materialcss", $srcmaterialcss );
 
 wp_register_style( "materialextrastyle", $srcmaterialextrastyle );
 
+wp_register_style( "hallerextrastyle", $srchallerextrastyle );
+
 
 wp_enqueue_style( "materialcss", $srcmaterialcss );
 
 wp_enqueue_style( "materialextrastyle", $srcmaterialextrastyle );
+
+wp_enqueue_style( "hallerextrastyle" );
 
 //  ----------------------------
 
