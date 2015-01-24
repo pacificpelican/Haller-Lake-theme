@@ -47,12 +47,13 @@ get_header(); ?>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<br>
+
   </header><!-- #masthead -->
+
+  
 <div id="page" class="hfeed site container-fluid">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 
-<br>
 
 <div class="row" id="bigrow">
   <div class="container col-xs-12 col-sm-12 col-md-8" id="hallerlakecontainer">
@@ -100,14 +101,7 @@ get_header(); ?>
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.min.js"></script>
-
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/ie10-viewport-bug-workaround.js"></script>
+  
 
 </div><!-- .____ -->
 </div><!-- #megacontainer -->

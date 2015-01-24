@@ -99,3 +99,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.6.2 Jan. 23, 2015
 -comments simplified: no more button drop-down
+
+0.7.0 Jan. 24, 2015
+-CSS and JavaScript now loaded WP-style: function borrowed from:
+	Portage Bay theme http://djmcloud.danieljmckeown.com/portagebay
