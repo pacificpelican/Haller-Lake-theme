@@ -103,3 +103,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 0.7.0 Jan. 24, 2015
 -CSS and JavaScript now loaded WP-style: function borrowed from:
 	Portage Bay theme http://djmcloud.danieljmckeown.com/portagebay
+	
+0.7.1 Jan. 24, 2015
+-removed IE8 and IE9 attempted fixes from header.php
