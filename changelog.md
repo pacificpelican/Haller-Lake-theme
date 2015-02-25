@@ -112,3 +112,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.7.3 Feb. 24, 2015
 -updated readme.md file; describing theme
+
+0.7.4 Feb. 24, 2015
+-updated screenshot to better reflect how sites look with current version
