@@ -109,3 +109,6 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 	
 0.7.2 Jan. 24, 2015
 -moved Haller Lake CSS stuff to its own file so it could load last
+
+0.7.3 Feb. 24, 2015
+-updated readme.md file; describing theme
