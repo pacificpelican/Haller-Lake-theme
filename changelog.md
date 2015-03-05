@@ -115,3 +115,7 @@ http://djmcloud.danieljmckeown.com/hallerlaketheme
 
 0.7.4 Feb. 24, 2015
 -updated screenshot to better reflect how sites look with current version
+
+0.7.5 March 4, 2015
+-404.php updated: no more extra js calls at bottom
+
