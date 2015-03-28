@@ -2,7 +2,7 @@
 /**
  * _s functions and definitions
  *
- * @package _s
+ * @package haller_lake_s
  */
 
 /**
@@ -128,3 +128,56 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+
+function theme_name_scripts() {
+
+$themeloc = esc_url( get_template_directory_uri() );
+
+// -----------------------------
+
+	$srcmaterialcss = "$themeloc/css/bootstrap.min.css";
+
+	$srcmaterialextrastyle = "$themeloc/css/navbar-fixed-top.css";
+
+	$srchallerextrastyle = "$themeloc/css/hallerlake.css";
+
+wp_register_style( "materialcss", $srcmaterialcss );
+
+wp_register_style( "materialextrastyle", $srcmaterialextrastyle );
+
+wp_register_style( "hallerextrastyle", $srchallerextrastyle );
+
+
+wp_enqueue_style( "materialcss", $srcmaterialcss );
+
+wp_enqueue_style( "materialextrastyle", $srcmaterialextrastyle );
+
+wp_enqueue_style( "hallerextrastyle" );
+
+//  ----------------------------
+
+	$srcjqtoo = "$themeloc/js/jquery.min.js";
+
+	$srcmaterial = "$themeloc/js/bootstrap.min.js";
+
+	$src6init = "$themeloc/js/ie10-viewport-bug-workaround.js";
+
+wp_register_script( "portjqry", $srcjqtoo );
+
+wp_register_script( "portmterial", $srcmaterial);
+
+wp_register_script( "port6init", $src6init );
+
+
+
+wp_enqueue_script( "portjqry" );
+
+wp_enqueue_script( "portmterial" );
+
+wp_enqueue_script( "port6init" );
+
+								}
+
+add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
+

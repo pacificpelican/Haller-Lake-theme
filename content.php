@@ -1,6 +1,6 @@
 <?php
 /**
- * @package _s
+ * @package haller_lake_s
  */
 ?>
 
@@ -35,7 +35,9 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
+	<button type="button" class="btn btn-default">
 		<?php _s_entry_footer(); ?>
+	</button>	
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
 

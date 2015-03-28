@@ -2,7 +2,7 @@
 /**
  * _s Theme Customizer
  *
- * @package _s
+ * @package haller_lake_s
  */
 
 /**

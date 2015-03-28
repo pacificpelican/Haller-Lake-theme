@@ -8,27 +8,27 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package _s
+ * @package haller_lake_s
  */
 get_header(); ?>
 
 <body <?php body_class(); ?>>
 
+<div id="megacontainer">
 
 <header id="masthead" class="site-header" role="banner">
 
-
  <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
+      <div class="container" id="hallernav">
+        <div class="navbar-header" id="hallernav2">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#"><?php bloginfo( 'name' ); ?></a>
+          <a class='navbar-brand' href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -47,27 +47,21 @@ get_header(); ?>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-<br>
 
-<div id="page" class="hfeed site">
+  </header><!-- #masthead -->
+
+  
+<div id="page" class="hfeed site container-fluid">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_s' ); ?></a>
 
 
-
-	</header><!-- #masthead -->
-
-<br><br>
-
-
-  <div class="container" id="hallerlakecontainer">
+<div class="row" id="bigrow">
+  <div class="container col-xs-12 col-sm-12 col-md-8" id="hallerlakecontainer">
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron" id="hallerlakejumbotron">
 
-
 	<div id="content" class="site-content">
-
-
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -100,20 +94,16 @@ get_header(); ?>
 
 <?php comments_template( $file, $separate_comments ); ?>
 
-
  </div>
 
     </div> <!-- /container -->
-
-
+</div> <!-- /row -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="<?php bloginfo('template_directory'); ?>/jq/js/jquery.min.js"></script>
+  
 
-    <script src="<?php bloginfo('template_directory'); ?>/bs/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="<?php bloginfo('template_directory'); ?>/bs/js/ie10-viewport-bug-workaround.js"></script>
+</div><!-- .____ -->
+</div><!-- #megacontainer -->
+</body>
+</html>

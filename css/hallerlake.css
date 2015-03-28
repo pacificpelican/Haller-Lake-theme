@@ -1,0 +1,55 @@
+/*--------------------------------------------------------------
+13 Optimizations from Haller Lake
+--------------------------------------------------------------*/
+
+
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 36px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron,
+  .container-fluid .jumbotron {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 30px;
+  }
+}
+
+div #hallerlakecontainer {
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+}
+
+div #secondary {
+    padding-top: 15px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 25px;
+    overflow:hidden;
+}
+
+div #page {
+    max-width: 100%;
+    overflow:hidden;
+}

@@ -4,13 +4,14 @@ Theme URI: http://pacificpelican.us/hallerlaketheme/
 Author: Daniel J. McKeown
 Author URI: http://djmcloud.com/
 Description: The 2014 WP theme from LoveBirdsConsulting.com
-Version: 0.2.3
+Version: 0.7.5
 License: GNU General Public License version 2 (or later)
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: birdclaw_s
-Tags: Bootstrap, _s, open source, nav header, responsive
+Text Domain: haller_lake_s
+Tags: pacificpelican.us, open source, nav header, responsive
 
-Haller Lake theme is based partly on Underscores (_s theme) v1 http://underscores.me/ by Automattic, Inc. and partly on Bootstrap v3 http://getbootstrap.com by Twitter, Inc.
+Haller Lake theme is based partly on Underscores (_s theme) v1.0 http://underscores.me/ (C) 2014 by Automattic, Inc. 
+	and partly on Bootstrap v3.3 http://getbootstrap.com (C) 2014 by Twitter, Inc.
 
 _s theme, like WordPress, is licensed under the GPLv2 or later: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,13 +19,14 @@ Bootstrap is licensed under the Apache 2 license: http://www.apache.org/licenses
 
 jQuery is licensed under the MIT license: https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT
 
-[CSS credits from _s include:
+*/
+
+/*-----------------------------------------------------------
+[CSS credits for this style sheet via _s:
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/]
-*/
-
-/*--------------------------------------------------------------
+-------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 1.0 Reset
@@ -46,6 +48,7 @@ and Blueprint http://www.blueprintcss.org/]
 12.0 Media
 	12.1 Captions
 	12.2 Galleries
+13.0 Optimizations from Haller Lake (on its own sheet now)
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -413,7 +416,7 @@ a {
 }
 
 a:visited {
-	color: purple;
+	color: darkblue;
 }
 
 a:hover,
@@ -787,3 +790,5 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
